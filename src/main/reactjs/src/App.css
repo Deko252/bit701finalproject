@@ -41,3 +41,9 @@ div.login{
   border-radius: 10px;
 }
 
+.error404{
+  background: url("./image/404Error.jpg") no-repeat center;
+  background-size: cover;
+  height: 100vh;
+}
+

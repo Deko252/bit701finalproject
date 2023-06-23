@@ -2,7 +2,9 @@ import React from 'react';
 import "../App.css";
 function MemberForm(props) {
     return (
-        <div></div>
+        <div>
+
+        </div>
     );
 }
 
