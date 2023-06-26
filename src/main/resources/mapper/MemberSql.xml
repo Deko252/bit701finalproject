@@ -10,9 +10,9 @@
     <select id="getSearchId" resultType="int" parameterType="String">
         select count(*) from member where  myid=#{myid}
     </select>
-    <update id="getLogin" parameterType="HashMap">
+    <select id="getLogin" parameterType="Map" resultType="int">
         select count(*) from member where  myid=#{myid} and mypass=#{mypass}
-    </update>
+    </select>
     <select id="getName" parameterType="String" resultType="String">
         select myname from member where myid=#{myid}
     </select>

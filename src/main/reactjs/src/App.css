@@ -47,3 +47,9 @@ div.login{
   height: 100vh;
 }
 
+.homeBg{
+  background: url("./image/molu.gif") no-repeat center;
+  background-size: cover;
+  height: 100vh;
+}
+

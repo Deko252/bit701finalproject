@@ -3,7 +3,7 @@ import {Home, Menu} from "./components";
 import {Route, Routes} from "react-router-dom";
 import {LoginForm, MemberForm, MemberList} from "./member";
 import {BoardForm, BoardList} from "./borad";
-//import errorimg from "./image/404Error.jpg";
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function RouteMain(props) {
